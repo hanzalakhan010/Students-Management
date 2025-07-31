@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Add Student</title>
+
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background: #f4f4f4;
+    }
+
+    form {
+      max-width: 400px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    div {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <%- include('partials/nav')%>
+
+
+  <h2 style="text-align: center;">Add a New Student</h2>
+
+  <form action="/students" method="POST">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+      <label for="dob">dob:</label>
+      <input type="date" id="dob" name="dob" required>
+    </div>
+
+    <div>
+      <label for="major">Select Major:</label>
+      <select name="major" id="major" required>
+        <option value="" disabled selected>Select your major</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Business Administration">Business Administration</option>
+        <option value="Electrical Engineering">Electrical Engineering</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Psychology">Psychology</option>
+        <option value="Biology">Biology</option>
+        <option value="Graphic Design">Graphic Design</option>
+      </select>
+    </div>
+    <div>
+      <button type="submit">Add Student</button>
+    </div>
+  </form>
+
+</body>
+
+</html>

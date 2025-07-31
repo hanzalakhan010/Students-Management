@@ -1,0 +1,214 @@
+{
+    "students": [
+        {
+            "id": "1",
+            "name": "Areeba Khan EDITTED",
+            "email": "areeba.khan@example.com",
+            "dob": "2003-05-12",
+            "enrollmentYear": 2021,
+            "gpa": 3.75,
+            "year": "Third Year",
+            "major": "Computer Science",
+            "courses": [
+                {
+                    "courseId": "1",
+                    "courseName": "Data Structures",
+                    "credits": 3,
+                    "grade": "A"
+                },
+                {
+                    "courseId": "2",
+                    "courseName": "Operating Systems",
+                    "credits": 4,
+                    "grade": "B+"
+                }
+            ],
+            "documents": [
+                {
+                    "docId": "D001",
+                    "type": "Transcript",
+                    "fileUrl": "/docs/transcript_S001.pdf"
+                },
+                {
+                    "docId": "D002",
+                    "type": "ID Card",
+                    "fileUrl": "/docs/idcard_S001.pdf"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Zain Ahmed",
+            "email": "zain.ahmed@example.com",
+            "dob": "2002-11-03",
+            "enrollmentYear": 2020,
+            "gpa": 3.9,
+            "year": "Final Year",
+            "major": "Information Technology",
+            "courses": [
+                {
+                    "courseId": "3",
+                    "courseName": "Networking",
+                    "credits": 3,
+                    "grade": "A"
+                },
+                {
+                    "courseId": "4",
+                    "courseName": "Cyber Security",
+                    "credits": 3,
+                    "grade": "A-"
+                }
+            ],
+            "documents": [
+                {
+                    "docId": "D003",
+                    "type": "Transcript",
+                    "fileUrl": "/docs/transcript_S002.pdf"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Fatima Noor",
+            "email": "fatima.noor@example.com",
+            "dob": "2004-02-18",
+            "enrollmentYear": 2022,
+            "gpa": 3.68,
+            "year": "Second Year",
+            "major": "Business Administration",
+            "courses": [
+                {
+                    "courseId": "5",
+                    "courseName": "Principles of Management",
+                    "credits": 3,
+                    "grade": "A-"
+                },
+                {
+                    "courseId": "6",
+                    "courseName": "Marketing Basics",
+                    "credits": 3,
+                    "grade": "B+"
+                }
+            ],
+            "documents": [
+                {
+                    "docId": "D004",
+                    "type": "ID Card",
+                    "fileUrl": "/docs/idcard_S003.pdf"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Usman Tariq",
+            "email": "usman.tariq@example.com",
+            "dob": "2001-08-25",
+            "enrollmentYear": 2019,
+            "gpa": 3.42,
+            "year": "Final Year",
+            "major": "Electrical Engineering",
+            "courses": [
+                {
+                    "courseId": "7",
+                    "courseName": "Circuit Analysis",
+                    "credits": 4,
+                    "grade": "B"
+                },
+                {
+                    "courseId": "8",
+                    "courseName": "Control Systems",
+                    "credits": 3,
+                    "grade": "A"
+                }
+            ],
+            "documents": [
+                {
+                    "docId": "D005",
+                    "type": "Transcript",
+                    "fileUrl": "/docs/transcript_S004.pdf"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Sara Malik",
+            "email": "sara.malik@example.com",
+            "dob": "2003-10-09",
+            "enrollmentYear": 2021,
+            "gpa": 3.88,
+            "year": "Third Year",
+            "major": "Psychology",
+            "courses": [
+                {
+                    "courseId": "9",
+                    "courseName": "Cognitive Psychology",
+                    "credits": 3,
+                    "grade": "A"
+                },
+                {
+                    "courseId": "10",
+                    "courseName": "Social Psychology",
+                    "credits": 3,
+                    "grade": "A"
+                }
+            ],
+            "documents": [
+                {
+                    "docId": "D006",
+                    "type": "Transcript",
+                    "fileUrl": "/docs/transcript_S005.pdf"
+                },
+                {
+                    "docId": "D007",
+                    "type": "Medical Certificate",
+                    "fileUrl": "/docs/medcert_S005.pdf"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Hassan Raza",
+            "email": "hassan.raza@example.com",
+            "dob": "2000-12-22",
+            "enrollmentYear": 2018,
+            "gpa": 2.95,
+            "year": "Alumnus",
+            "major": "Mechanical Engineering",
+            "courses": [
+                {
+                    "courseId": "11",
+                    "courseName": "Thermodynamics",
+                    "credits": 4,
+                    "grade": "B-"
+                },
+                {
+                    "courseId": "12",
+                    "courseName": "Fluid Mechanics",
+                    "credits": 3,
+                    "grade": "C+"
+                }
+            ],
+            "documents": [
+                {
+                    "docId": "D008",
+                    "type": "Final Transcript",
+                    "fileUrl": "/docs/final_transcript_S006.pdf"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Muhammad Hanzala",
+            "email": "thisishanzalakhan@outlook.com",
+            "dob": "2025-07-02",
+            "major": "Business Administration"
+        },
+        {
+            "id": 8,
+            "name": "Hanzala",
+            "email": "h@f.com",
+            "dob": "2025-07-22",
+            "major": "Business Administration"
+        }
+    ]
+}

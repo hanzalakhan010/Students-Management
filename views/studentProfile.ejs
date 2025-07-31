@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .profile-card {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .profile-card h2 {
+            margin: 0 0 10px;
+        }
+
+        .profile-card p {
+            margin: 5px 0;
+            color: #555;
+        }.course-cards{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }.course-cards >div{
+            border: .3px solid gray;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <h2>
+            <%= student.name %>
+        </h2>
+        <a href = '/editStudent/<%=student.id%>'>Edit</a>
+        <p><strong>Email:</strong>
+            <%= student.email %>
+        </p>
+        <p>Major : <%=student.major%></p>
+        <p>GPA : <%=student.gpa%></p>
+        <p>Date of birth : <%=student.dob%></p>
+        <% if (student.courses){%>
+            <h3>Courses</h3>
+            <div class='course-cards'>
+                <% student?.courses.forEach(course=>{%>
+                    <div>
+                        <h5>
+                            Course Name : <%=course.courseName%>
+                        </h5>
+                        <p>Course credit : <%= course.credits%></p>
+                        <p>Grades : <%= course.grade%></p>
+                    </div>
+                    <%})%>
+            </div>
+            <%} else {%>
+                <h5>No course enrollment</h5>
+                <%}%>
+            <form id = 'course-enroll'>
+                
+            </form>
+    </div>
+
+</body>
+
+</html>

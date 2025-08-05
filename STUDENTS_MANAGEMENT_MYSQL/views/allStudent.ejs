@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Students</title>
+</head>
+<body>
+    <h1>All Students</h1>
+    <ul>
+        <% students.forEach(student => { %>
+            <li><%= student.name %> - <%= student.email %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
